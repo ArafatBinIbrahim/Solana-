@@ -31,6 +31,7 @@ solana-site/
 ├── index.html
 
  ├── css_files/
+ 
    │   ├── style.css 
 # base styles, components, animations
 │   └── media.css                     # responsive breakpoints
