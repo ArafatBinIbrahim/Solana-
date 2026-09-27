@@ -43,19 +43,12 @@ solana-site/
 │   └── script.js        # preloader, dropdown, scroll reveal, form logic
 
 └── images/
-
-    ├── logo.png
-    
-    ├── favicon.png
-    
-    ├── banner_img.png
-    
-    ├── Rectangle.png
-    
-    ├── box1.png ... box8.png
-    
+    ├── logo.png    
+    ├── favicon.png    
+    ├── banner_img.png    
+    ├── Rectangle.png    
+    ├── box1.png ... box8.png    
     ├── youtube.png
-    
     └── podcast.png
     
 
