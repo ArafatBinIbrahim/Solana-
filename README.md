@@ -27,20 +27,37 @@ This is a front-end practice/portfolio project. It is not affiliated with or end
 
 
 solana-site/
+
 ├── index.html
+
 ├── css_files/
-│   ├── style.css       # base styles, components, animations
+
+│   ├── style.css 
+
+# base styles, components, animations
+
 │   └── media.css        # responsive breakpoints
+
 ├── js_files/
+
 │   └── script.js        # preloader, dropdown, scroll reveal, form logic
+
 └── images/
+
     ├── logo.png
+    
     ├── favicon.png
+    
     ├── banner_img.png
+    
     ├── Rectangle.png
+    
     ├── box1.png ... box8.png
+    
     ├── youtube.png
+    
     └── podcast.png
+    
 
 
 ## 🚀 Getting Started
