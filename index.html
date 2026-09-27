@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Developer Resources — a manual for joining the Solana ecosystem. Courses, tools, documentation and community links for Solana builders.">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="Solana | Developer Resources">
+    <meta property="og:description" content="A manual for joining the Solana ecosystem. By builders for builders.">
+    <meta property="og:type" content="website">
+    <title>Developer Resources | Solana</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Preconnects for faster third-party loads -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS linking -->
+    <link rel="stylesheet" href="css_files/style.css">
+    <link rel="stylesheet" href="css_files/media.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="preloader" aria-hidden="true">
+        <div class="lds-roller">
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+        </div>
+    </div>
+
+    <div class="headline d-none d-md-block">
+        <div class="marquee">
+            <p class="mb-0">Breakpoint 2023 — New City. New Vibes — Get Early Access →</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" aria-label="Primary">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="index.html" aria-label="Solana home"><img src="images/logo.png" alt="Solana logo" width="140" height="32"></a>
+                    </div>
+                    <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav menu ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item item">
+                                <button type="button" class="linkBtn" aria-expanded="false">
+                                    Learn <span aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <ul class="ps-0 item_list">
+                                    <li class="list-unstyled list"><a href="#">Solana Documentation</a></li>
+                                    <li class="list-unstyled list"><a href="#">Core Concepts</a></li>
+                                    <li class="list-unstyled list"><a href="#">Guides</a></li>
+                                    <li class="list-unstyled list"><a href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item item">
+                                <button type="button" class="linkBtn" aria-expanded="false">
+                                    Build <span aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <ul class="ps-0 item_list">
+                                    <li class="list-unstyled list"><a href="#">Solana Playground</a></li>
+                                    <li class="list-unstyled list"><a href="#">Anchor Framework</a></li>
+                                    <li class="list-unstyled list"><a href="#">Program Examples</a></li>
+                                    <li class="list-unstyled list"><a href="#">create-solana-dapp</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item item">
+                                <button type="button" class="linkBtn" aria-expanded="false">
+                                    Network <span aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <ul class="ps-0 item_list">
+                                    <li class="list-unstyled list"><a href="#">Validators</a></li>
+                                    <li class="list-unstyled list"><a href="#">Explorer</a></li>
+                                    <li class="list-unstyled list"><a href="#">Status</a></li>
+                                    <li class="list-unstyled list"><a href="#">Metrics</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item item">
+                                <button type="button" class="linkBtn" aria-expanded="false">
+                                    Community <span aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <ul class="ps-0 item_list">
+                                    <li class="list-unstyled list"><a href="#">Discord</a></li>
+                                    <li class="list-unstyled list"><a href="#">Forum</a></li>
+                                    <li class="list-unstyled list"><a href="#">Events</a></li>
+                                    <li class="list-unstyled list"><a href="#">Grants</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="banner">
+            <div class="rectangle" aria-hidden="true"></div>
+            <div class="container">
+                <div class="row overflow-hidden">
+                    <div class="col-lg-6">
+                        <div class="title">
+                            <h1>Developer Resources</h1>
+                            <p>A manual for joining the Solana ecosystem. By builders for builders.</p>
+                            <div class="banner_img d-md-none d-block">
+                                <img src="images/banner_img.png" class="w-100 h-100" alt="Abstract animated ribbon graphic representing the Solana network" loading="eager">
+                            </div>
+                            <div class="buttons">
+                                <button type="button" class="common_btn">Build Now</button>
+                                <button type="button" class="common_btn common_btn--ghost">
+                                    Stack Exchange <span aria-hidden="true"><i class="fa-brands fa-stack-exchange"></i></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="banner_img d-none d-md-block">
+                            <img src="images/banner_img.png" class="w-100 h-100" alt="Abstract animated ribbon graphic representing the Solana network" loading="eager">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="starting reveal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="getStart">
+                            <h2>Get started.</h2>
+                            <p class="mb-0">Use these Solana Foundation and community courses to begin your journey into Solana development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="big_box_link">
+                            <div class="big_box">
+                                <span class="chapter mb-0">17 Chapters</span>
+                                <h3 class="mb-0">Solana Development Course</h3>
+                                <p>Quickstart your Solana development starting from nothing to complex programs.</p>
+                                <div class="arrow">
+                                    <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-xxl-11">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box2.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">14 Chapters</span>
+                                                <p class="mb-0">Buildspace</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box3.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">12 Chapters</span>
+                                                <p class="mb-0">Solana Bytes</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box4.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">1 Chapter</span>
+                                                <p class="mb-0">Scaffold Series</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box5.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">3 Chapters</span>
+                                                <p class="mb-0">Freecodecamp Solana Course</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box6.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">107 Chapters</span>
+                                                <p class="mb-0">Solana Development by Knox</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <a href="#" class="box_link">
+                                    <div class="box">
+                                        <div class="img"><img src="images/box7.png" class="w-100" alt="" loading="lazy"></div>
+                                        <div class="d-flex box_text justify-content-between align-items-end">
+                                            <div>
+                                                <span class="chapter">8 Chapters</span>
+                                                <p class="mb-0">Solana Bootcamp</p>
+                                            </div>
+                                            <div class="arrow"><span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="deeper reveal">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-xxl-11">
+                        <div class="common">
+                            <h2>Dig deeper.</h2>
+                            <p class="mb-0">Learn from resources across the greater Solana ecosystem.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Core Documentation</h3>
+                                                <p>The official Solana documentation on developing, validators, SPL tokens, wallets and more.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Solana Cookbook</h3>
+                                                <p>The Solana Cookbook is a developer resource that provides the essential concepts and references for building applications on Solana.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Solana Stack Exchange</h3>
+                                                <p>Solana Stack Exchange is a question and answer site for Solana software users and developers.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Solana Playground</h3>
+                                                <p>Easily build, deploy and test Solana programs and smart contracts from a browser IDE.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>create-solana-dapp</h3>
+                                                <p>Get up and running fast with Solana dApps, generate a project template in seconds.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Anchor Docs</h3>
+                                                <p>Anchor is a framework for Solana's Sealevel runtime providing several convenient developer tools for writing smart contracts.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Solana Program Library</h3>
+                                                <p>The Solana Program Library (SPL) is a collection of on-chain programs targeting the Sealevel parallel runtime.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex justify-content-center px-xl-0">
+                                <div class="parent">
+                                    <div class="pages">
+                                        <div class="content">
+                                            <div>
+                                                <span>Tool / Library</span>
+                                                <h3>Program Examples</h3>
+                                                <p>A list of curated examples for a wide range of use cases implemented using on-chain programs.</p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#">Learn more <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="docs reveal">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-xxl-11">
+                        <div class="common">
+                            <h2>Go to the source.</h2>
+                            <p class="mb-0">Read the documentation for Solana and popular tools.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <div class="docs_box">
+                                    <div class="up">
+                                        <h3>Solana Docs</h3>
+                                        <div class="up_link">
+                                            <a href="#">View all <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="down">
+                                        <p class="mb-0">Learn how Solana works and get a high-level understanding of Solana's architecture.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 px-xl-0 d-flex justify-content-center">
+                                <div class="docs_box">
+                                    <div class="up">
+                                        <h3>Metaplex Docs</h3>
+                                        <div class="up_link">
+                                            <a href="#">View all <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="down">
+                                        <p class="mb-0">Learn what you build with Metaplex, make the process of creating and launching NFTs easier.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                                <div class="changelog">
+                                    <h3 class="mb-0">Solana Changelog</h3>
+                                    <p>Some more Solana changes from Jakob &amp; Joe. Subscribe to the newsletter for proposal updates and price compute unit changes.</p>
+                                    <a href="#">Latest episode</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                                <div class="changelog changelog--media">
+                                    <img src="images/box8.png" class="w-100" alt="Solana Changelog podcast cover art" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 d-flex justify-content-center">
+                                <div class="form">
+                                    <div>
+                                        <h3>Solana Update</h3>
+                                        <p>Sign up to the newsletter and learn about new resources, new commits, new proposals, and more.</p>
+                                    </div>
+                                    <form id="newsletterForm" novalidate>
+                                        <div class="input">
+                                            <label for="newsletterEmail" class="visually-hidden">Email address</label>
+                                            <input type="email" id="newsletterEmail" name="email" placeholder="Email" required autocomplete="email">
+                                            <button type="submit">Sign up</button>
+                                        </div>
+                                        <p class="form_msg" id="newsletterMsg" role="status" aria-live="polite"></p>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center">
+                                <div class="form">
+                                    <div>
+                                        <h3>More Resources</h3>
+                                        <p>More videos, more episodes. Discussions between industry leaders in both blockchain and technology, our team, and community developers.</p>
+                                    </div>
+                                    <div class="live">
+                                        <a href="https://www.youtube.com/watch?v=9QzY678lE4M" target="_blank" rel="noopener noreferrer">
+                                            YouTube <span class="youtube"><img src="images/youtube.png" class="w-100 h-100" alt="" loading="lazy"></span>
+                                        </a>
+                                        <a href="https://www.youtube.com/watch?v=Rni7Fz7208c&t=5002s" target="_blank" rel="noopener noreferrer">
+                                            Podcast <span class="podcast"><img src="images/podcast.png" class="w-100 h-100" alt="" loading="lazy"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="left">
+                        <div>
+                            <div class="logo"><a href="#" aria-label="Solana home"><img src="images/favicon.png" class="w-100" alt="Solana"></a></div>
+                            <p class="mb-0">Managed by Solana Foundation</p>
+                            <div class="socials">
+                                <a href="#" aria-label="YouTube"><span><i class="fa-brands fa-youtube"></i></span></a>
+                                <a href="#" aria-label="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a>
+                                <a href="#" aria-label="Discord"><span><i class="fa-brands fa-discord"></i></span></a>
+                                <a href="#" aria-label="Reddit"><span><i class="fa-brands fa-reddit-alien"></i></span></a>
+                                <a href="#" aria-label="GitHub"><span><i class="fa-brands fa-github"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="copyText d-xl-block d-none">
+                            <p class="my-0">&copy; <span id="year">2025</span> Solana Foundation. All rights reserved. <span class="creadit">Designed by Kazi Arafat Bin Ibrahim</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="right">
+                                <h4 class="mb-0">Solana</h4>
+                                <ul class="mb-0 px-0">
+                                    <li class="list-unstyled"><a href="#">Grants</a></li>
+                                    <li class="list-unstyled"><a href="#">Break Solana</a></li>
+                                    <li class="list-unstyled"><a href="#">Media Kit</a></li>
+                                    <li class="list-unstyled"><a href="#">Careers</a></li>
+                                    <li class="list-unstyled"><a href="#">Disclaimer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="right">
+                                <h4 class="mb-0">Get Connected</h4>
+                                <ul class="mb-0 px-0">
+                                    <li class="list-unstyled"><a href="#">Ecosystem</a></li>
+                                    <li class="list-unstyled"><a href="#">Blog</a></li>
+                                    <li class="list-unstyled"><a href="#">Newsletter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="right">
+                                <h4 class="mb-0 gray"><span aria-hidden="true"><i class="fa-solid fa-globe"></i></span> EN</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-xl-none d-block">
+                    <div class="copyText text-center mt-5">
+                        <p class="my-0">&copy; <span class="year-mobile">2025</span> Solana Foundation. All rights reserved. <span class="creadit">Designed by Kazi Arafat Bin Ibrahim</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Bootstrap linking -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- Fontawesome linking -->
+    <script src="https://kit.fontawesome.com/8cb8b110f3.js" crossorigin="anonymous" defer></script>
+    <script src="js_files/script.js" defer></script>
+</body>
+
+</html>
