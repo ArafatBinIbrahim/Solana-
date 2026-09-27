@@ -29,8 +29,9 @@ This is a front-end practice/portfolio project. It is not affiliated with or end
 solana-site/
 
 ├── index.html
-├── css_files/
-│   ├── style.css 
+
+ ├── css_files/
+   │   ├── style.css 
 # base styles, components, animations
 │   └── media.css                     # responsive breakpoints
 ├── js_files/
